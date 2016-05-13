@@ -1,4 +1,5 @@
 # PowerShell Example
 
-#[Reflection.Assembly]::LoadFile("$PSScriptRoot/foo/bar")
-#[RestSharpExample.Example1]::Example1()
+[Reflection.Assembly]::LoadFile("$PSScriptRoot\RestSharpExample\bin\Release\RestSharp.dll")
+[Reflection.Assembly]::LoadFile("$PSScriptRoot\RestSharpExample\bin\Release\RestSharpExample.dll")
+[RestSharpExample.Example]::Example1()

@@ -3,9 +3,9 @@ using RestSharp;
 
 namespace RestSharpExample
 {
-	public class Example1
+	public class Example
 	{
-		public Example1 ()
+		public static string Example1 ()
 		{
 			var client = new RestClient("http://example.com");
 			// client.Authenticator = new HttpBasicAuthenticator(username, password);
@@ -42,6 +42,7 @@ namespace RestSharpExample
 			// abort the request on demand
 			//asyncHandle.Abort();
 			Console.ReadLine();
+			return string.Empty;
 		}
 
 	}
