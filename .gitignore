@@ -1,0 +1,18 @@
+#OS Specific
+.DS_Store
+
+#User Specific
+*.userprefs
+*.usertasks
+
+#Mono Project Files
+*.pidb
+*.resources
+test-results/
+
+#Nuget - these should be restored on build
+packages/
+
+#Build specific
+bin/
+obj/
